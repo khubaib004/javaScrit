@@ -1,24 +1,24 @@
 let digit=prompt("Enter the digit : ");
 
 if (digit==0)
-    document.log("zero");
+    console.log("zero");
 else if (digit==1)
-    document.log("one");
+    console.log("one");
 else if (digit==2)
-    document.log("two");
+    console.log("two");
 else if (digit==3)
-    document.log("three");
+    console.log("three");
 else if (digit==4)
-    document.log("four");
+    console.log("four");
 else if (digit==5)
-    document.log("five");
+    console.log("five");
 else if (digit==6)
-    document.log("six");
+    console.log("six");
 else if (digit==7)
-    document.log("seven");
+    console.log("seven");
 else if (digit==8)
-    document.log("eight");
+    console.log("eight");
 else if (digit==9)
-    document.log("nine");
+    console.log("nine");
 else
-    document.log("invalid number")
+    console.log("invalid number")
