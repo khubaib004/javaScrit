@@ -12,7 +12,7 @@ else if (mark>=50 && mark <= 59)
     console.log("C");
 else if (mark>=40 && mark <= 49)
     console.log("D");
-else if (mark<=33 && mark <= 0)
+else if (mark<=33 && mark >= 0)
     console.log("F");
 else
-    console.log("invalid markss")
+    console.log("invalid marks")
