@@ -1,0 +1,5 @@
+for (let i = 1 ; i <= 100  ; i += 2){
+    document.write("" + i);
+   
+}
+document.write("<h1>end</h1>");
