@@ -7,4 +7,3 @@ name[3]="Mahid"
 name[4]="Nahid"
 
 console.log(name);
-
