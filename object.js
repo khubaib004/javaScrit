@@ -1,3 +1,8 @@
+// how to create object
+// how to print a value of an 0bject
+// adding a constractor
+// adding function inside a constractor
+
 function Student(a, b, c, d) {
   this.name = a;
   this.age = b;
