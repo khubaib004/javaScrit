@@ -3,6 +3,12 @@ function Student(a, b, c, d) {
   this.age = b;
   this.cgpa = c;
   this.lang = d;
+  this.display = function () {
+    console.log(this.name);
+    console.log(this.age);
+    console.log(this.cgpa);
+    console.log(this.lang);
+  };
 }
 
 let student1 = new Student("khubaib sarker", 28, 3.5, [
@@ -11,5 +17,4 @@ let student1 = new Student("khubaib sarker", 28, 3.5, [
   "Arabic",
 ]);
 
-console.log(student1.lang);
-console.log(student1);
+student1.display();
