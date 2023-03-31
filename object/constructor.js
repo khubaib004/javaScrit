@@ -16,7 +16,7 @@ let p = new person();
 
 function Person (name,email){
    this.name=name;
-   this.email=email;
+   this.email=email;                         // constructor
    this.print=function(){      
       console.log('name : ' + this.name)
    }
